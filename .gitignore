@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+
+# Datasets
+/datasets/
+/dataset/
+/data/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated files
+.ipynb_checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+
+# Large generated mammogram previews
+/mammo_text_detection/previews/
+
+# Keras model binaries
+*.keras

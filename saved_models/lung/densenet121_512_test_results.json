@@ -1,0 +1,23 @@
+{
+  "architecture": "DenseNet121",
+  "image_size": 512,
+  "classes": [
+    "Cancer",
+    "NORMAL"
+  ],
+  "test_loss": 0.07215566436449687,
+  "test_accuracy": 0.9748858447488584,
+  "cancer_precision": 0.98125,
+  "cancer_recall_sensitivity": 0.9843260188087775,
+  "cancer_f1": 0.9827856025039123,
+  "confusion_matrix": [
+    [
+      628,
+      10
+    ],
+    [
+      12,
+      226
+    ]
+  ]
+}
